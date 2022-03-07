@@ -70,3 +70,6 @@ subsystem sound
 /sys/devices/system/cpu/cpu*   cpufreq/scaling_max_freq   0664  system system
 /sys/devices/system/cpu/cpu*   cpufreq/scaling_min_freq   0664  system system
 /sys/devices/virtual/thermal/cooling_device* cur_state	0664 system system
+
+# Big Hammer
+/dev/wbrc        0660 bluetooth bluetooth

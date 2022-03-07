@@ -1,6 +1,6 @@
 ro.display.series=Samsung Galaxy S21 FE
-ro.product.board=lito
-ro.board.platform=lito
+ro.product.board=lahaina
+ro.board.platform=lahaina
 sys.usb.controller=a600000.dwc3
 ro.boot.dynamic_partitions=true
 #fbe.metadata.wrappedkey=true
