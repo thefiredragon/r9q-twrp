@@ -11,8 +11,11 @@ mka recoveryimage
 ```
 
 ## Install
+
+```
 Flash latest release && vbmeta-disabled with odin and disable auto-reboot
 Reboot directly into recovery
 Terminal -> type "multidisabler"
 Format data, cache
 enjoy
+```
