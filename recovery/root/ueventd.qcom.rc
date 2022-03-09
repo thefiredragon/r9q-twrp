@@ -73,3 +73,6 @@ subsystem sound
 
 # Big Hammer
 /dev/wbrc        0660 bluetooth bluetooth
+
+# tzic driver
+/dev/tzic             0660   system     net_bt_admin
