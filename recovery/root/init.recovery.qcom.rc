@@ -30,84 +30,13 @@ on boot
     setprop ro.boot.avb_version 1.1
 
     # load touch modules
-insmod /vendor/lib/modules/1.1/bcm4361.ko
-insmod /vendor/lib/modules/1.1/blk-sec-stats.ko
-insmod /vendor/lib/modules/1.1/dhd.ko
-insmod /vendor/lib/modules/1.1/e4000.ko
-insmod /vendor/lib/modules/1.1/fc0011.ko
-insmod /vendor/lib/modules/1.1/fc0012.ko
-insmod /vendor/lib/modules/1.1/fc0013.ko
-insmod /vendor/lib/modules/1.1/fc2580.ko
-insmod /vendor/lib/modules/1.1/hid-aksys.ko
-insmod /vendor/lib/modules/1.1/input_booster_lkm.ko
-insmod /vendor/lib/modules/1.1/it913x.ko
-insmod /vendor/lib/modules/1.1/kperfmon.ko
-insmod /vendor/lib/modules/1.1/llcc_perfmon.ko
-insmod /vendor/lib/modules/1.1/m88rs6000t.ko
-insmod /vendor/lib/modules/1.1/machine_dlkm.ko
-insmod /vendor/lib/modules/1.1/max2165.ko
-insmod /vendor/lib/modules/1.1/mc44s803.ko
-insmod /vendor/lib/modules/1.1/msi001.ko
-insmod /vendor/lib/modules/1.1/mt2060.ko
-insmod /vendor/lib/modules/1.1/mt2063.ko
-insmod /vendor/lib/modules/1.1/mt20xx.ko
-insmod /vendor/lib/modules/1.1/mt2131.ko
-insmod /vendor/lib/modules/1.1/mt2266.ko
-insmod /vendor/lib/modules/1.1/mxl301rf.ko
-insmod /vendor/lib/modules/1.1/mxl5005s.ko
-insmod /vendor/lib/modules/1.1/mxl5007t.ko
-insmod /vendor/lib/modules/1.1/native_dlkm.ko
-insmod /vendor/lib/modules/1.1/nfc_sec.ko
-insmod /vendor/lib/modules/1.1/pinctrl_lpi_dlkm.ko
-insmod /vendor/lib/modules/1.1/pinctrl_wcd_dlkm.ko
-insmod /vendor/lib/modules/1.1/platform_dlkm.ko
-insmod /vendor/lib/modules/1.1/q6_dlkm.ko
-insmod /vendor/lib/modules/1.1/q6_notifier_dlkm.ko
-insmod /vendor/lib/modules/1.1/q6_pdr_dlkm.ko
-insmod /vendor/lib/modules/1.1/qm1d1b0004.ko
-insmod /vendor/lib/modules/1.1/qm1d1c0042.ko
-insmod /vendor/lib/modules/1.1/qt1010.ko
-insmod /vendor/lib/modules/1.1/r820t.ko
-insmod /vendor/lib/modules/1.1/radio-i2c-rtc6226-qca.ko
-insmod /vendor/lib/modules/1.1/rdbg.ko
-insmod /vendor/lib/modules/1.1/rx_macro_dlkm.ko
-insmod /vendor/lib/modules/1.1/sec_audio_sysfs.ko
-insmod /vendor/lib/modules/1.1/sec_cmd.ko
-insmod /vendor/lib/modules/1.1/sec_common_fn.ko
-insmod /vendor/lib/modules/1.1/sec_secure_touch.ko
-insmod /vendor/lib/modules/1.1/sec_tclm_v2.ko
-insmod /vendor/lib/modules/1.1/sec_tsp_dumpkey.ko
-insmod /vendor/lib/modules/1.1/sec_tsp_log.ko
-insmod /vendor/lib/modules/1.1/si2157.ko
-insmod /vendor/lib/modules/1.1/slimbus-ngd.ko
-insmod /vendor/lib/modules/1.1/slimbus.ko
-insmod /vendor/lib/modules/1.1/slsi_ts.ko
-insmod /vendor/lib/modules/1.1/snd-soc-cirrus-amp.ko
-insmod /vendor/lib/modules/1.1/snd-soc-cs35l41-i2c.ko
-insmod /vendor/lib/modules/1.1/snd-soc-wm-adsp.ko
-insmod /vendor/lib/modules/1.1/snd_event_dlkm.ko
-insmod /vendor/lib/modules/1.1/snvm.ko
-insmod /vendor/lib/modules/1.1/ssg-iosched.ko
-insmod /vendor/lib/modules/1.1/stub_dlkm.ko
-insmod /vendor/lib/modules/1.1/synaptics_ts.ko
-insmod /vendor/lib/modules/1.1/tcp_htcp.ko
-insmod /vendor/lib/modules/1.1/tcp_westwood.ko
-insmod /vendor/lib/modules/1.1/tda18212.ko
-insmod /vendor/lib/modules/1.1/tda18218.ko
-insmod /vendor/lib/modules/1.1/tda18250.ko
-insmod /vendor/lib/modules/1.1/tda9887.ko
-insmod /vendor/lib/modules/1.1/tea5761.ko
-insmod /vendor/lib/modules/1.1/tea5767.ko
-insmod /vendor/lib/modules/1.1/tua9001.ko
-insmod /vendor/lib/modules/1.1/tuner-simple.ko
-insmod /vendor/lib/modules/1.1/tuner-types.ko
-insmod /vendor/lib/modules/1.1/tuner-xc2028.ko
-insmod /vendor/lib/modules/1.1/tx_macro_dlkm.ko
-insmod /vendor/lib/modules/1.1/va_macro_dlkm.ko
-insmod /vendor/lib/modules/1.1/wcd9xxx_dlkm.ko
-insmod /vendor/lib/modules/1.1/wcd_core_dlkm.ko
-insmod /vendor/lib/modules/1.1/xc4000.ko
-insmod /vendor/lib/modules/1.1/xc5000.ko
+    insmod /vendor/lib/modules/1.1/sec_tsp_log.ko
+    insmod /vendor/lib/modules/1.1/sec_tclm_v2.ko
+    insmod /vendor/lib/modules/1.1/sec_secure_touch.ko
+    insmod /vendor/lib/modules/1.1/sec_common_fn.ko
+    insmod /vendor/lib/modules/1.1/sec_tsp_dumpkey.ko
+    insmod /vendor/lib/modules/1.1/sec_cmd.ko
+    insmod /vendor/lib/modules/1.1/slsi_ts.ko
 
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
