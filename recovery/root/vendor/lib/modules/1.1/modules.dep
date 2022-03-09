@@ -53,34 +53,34 @@
 /lib/modules/sec_cmd.ko: /lib/modules/sec_tsp_log.ko
 /lib/modules/fingerprint.ko: /lib/modules/fingerprint_sysfs.ko
 /lib/modules/fingerprint_sysfs.ko:
-/lib/modules/slsi_ts.ko: /lib/modules/sec_common_fn.ko /lib/modules/sec_cmd.ko /lib/modules/sec_tsp_log.ko
+/lib/modules/slsi_ts.ko: /lib/modules/sec_cmd.ko /lib/modules/sec_tsp_log.ko
 /lib/modules/snvm.ko:
-/lib/modules/synaptics_ts.ko: /lib/modules/sec_common_fn.ko /lib/modules/sec_cmd.ko /lib/modules/sec_tsp_log.ko
+/lib/modules/synaptics_ts.ko: /lib/modules/sec_cmd.ko /lib/modules/sec_tsp_log.ko
 /lib/modules/slimbus.ko:
 /lib/modules/slimbus-ngd.ko: /lib/modules/slimbus.ko
 /lib/modules/snd-soc-cirrus-amp.ko: /lib/modules/snd-soc-wm-adsp.ko
-/lib/modules/snd-soc-cs35l41-i2c.ko: /lib/modules/snd-soc-cirrus-amp.ko /lib/modules/snd-soc-wm-adsp.ko /lib/modules/sec_audio_sysfs.ko
+/lib/modules/snd-soc-cs35l41-i2c.ko: /lib/modules/sec_audio_sysfs.ko
 /lib/modules/snd-soc-wm-adsp.ko:
 /lib/modules/sec_audio_sysfs.ko:
 /lib/modules/pinctrl_wcd_dlkm.ko:
-/lib/modules/pinctrl_lpi_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/pinctrl_lpi_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
 /lib/modules/snd_event_dlkm.ko:
-/lib/modules/native_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/q6_dlkm.ko: /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/adsp_loader_dlkm.ko: /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/native_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/q6_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/adsp_loader_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
 /lib/modules/q6_pdr_dlkm.ko:
 /lib/modules/q6_notifier_dlkm.ko: /lib/modules/q6_pdr_dlkm.ko
 /lib/modules/apr_dlkm.ko: /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/bolero_cdc_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/va_macro_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/tx_macro_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/rx_macro_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/bolero_cdc_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/va_macro_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/tx_macro_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/rx_macro_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
 /lib/modules/wcd_core_dlkm.ko:
-/lib/modules/wcd9xxx_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/wcd9xxx_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
 /lib/modules/stub_dlkm.ko:
 /lib/modules/hdmi_dlkm.ko:
-/lib/modules/platform_dlkm.ko: /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
-/lib/modules/machine_dlkm.ko: /lib/modules/snd-soc-cirrus-amp.ko /lib/modules/snd-soc-wm-adsp.ko /lib/modules/sec_audio_sysfs.ko /lib/modules/q6_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/platform_dlkm.ko: /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
+/lib/modules/machine_dlkm.ko: /lib/modules/sec_audio_sysfs.ko /lib/modules/apr_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/snd_event_dlkm.ko
 /lib/modules/camera.ko:
 /lib/modules/tcp_westwood.ko:
 /lib/modules/tcp_htcp.ko:
