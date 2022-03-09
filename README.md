@@ -1,4 +1,4 @@
-## Device Tree for the Samsung Galaxy S21 FE 5G (SM-G990B)
+## Device Tree for the Samsung Galaxy S21 FE 5G (SM-G990B Snapdragon)
 You will need to get the [TWRP Minimal Manifest](https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp) files
 
 ## How-to compile:
