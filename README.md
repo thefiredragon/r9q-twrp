@@ -25,3 +25,24 @@ enjoy
 ```
 Touch not working
 ```
+
+## Workaround untill it's resolved:
+
+```
+Boot into recovery
+Connect the device to your pc
+open termianl
+adb shell
+twrp format data
+twrp wipe data
+twrp wipe cache
+twrp wipe dalvik
+adb push /path/to/file /data
+twrp install /data/file.zip
+```
+
+## notes
+
+```
+To flash gsi I used ChonDoe_Flasher.zip
+```
