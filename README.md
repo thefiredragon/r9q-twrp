@@ -19,3 +19,9 @@ Terminal -> type "multidisabler"
 Format data, cache
 enjoy
 ```
+
+## Bugs
+
+```
+Touch not working
+```
