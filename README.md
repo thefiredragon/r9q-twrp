@@ -13,8 +13,8 @@ mka recoveryimage
 ## Install
 
 ```
-Flash latest release && vbmeta-disabled with odin and disable auto-reboot
-Reboot directly into recovery
+Flash latest release in AP Slot && vbmeta-disabled in Home Slot with odin
+Reboot directly into recovery (Power + Volume Uo)
 Terminal -> type "multidisabler"
 Format data, cache
 enjoy
@@ -23,7 +23,7 @@ enjoy
 ## Bugs
 
 ```
-Touch not working
+Touch is currently not working
 ```
 
 ## Workaround untill it's resolved:
@@ -31,7 +31,7 @@ Touch not working
 ```
 Boot into recovery
 Connect the device to your pc
-open termianl
+open terminal
 adb shell
 twrp format data
 twrp wipe data
@@ -41,8 +41,10 @@ adb push /path/to/file /data
 twrp install /data/file.zip
 ```
 
-## notes
+## notes to install gsi
 
 ```
-To flash gsi I used ChonDoe_Flasher.zip
+start into twrp recovery
+adb reboot fastboot
+fastboot flash system /path/to/system.img
 ```
