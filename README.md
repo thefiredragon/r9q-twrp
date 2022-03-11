@@ -33,6 +33,7 @@ Boot into recovery
 Connect the device to your pc
 open terminal
 adb shell
+multidisabler
 twrp format data
 twrp wipe data
 twrp wipe cache
