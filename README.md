@@ -49,3 +49,5 @@ start into twrp recovery
 adb reboot fastboot
 fastboot flash system /path/to/system.img
 ```
+
+ [Thanks to Afaneh for his work](https://github.com/mohammad92?tab=repositories)
