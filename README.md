@@ -23,10 +23,10 @@ enjoy
 ## Bugs
 
 ```
-Touch is currently not working
+Tell me
 ```
 
-## Workaround untill it's resolved:
+## Useful commands:
 
 ```
 Boot into recovery
